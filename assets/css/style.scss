@@ -16,7 +16,7 @@ body {
 	text-align: center;
 	background: #392986;
 	color: aliceblue;
-	background-image: linear-gradient(120deg, #155799, #159957);
+	background-image: linear-gradient(90deg, blue, blue, white, white, white, red, red);
 }
 
 /* Footer styles. Set black background color, white text and padding */
@@ -24,7 +24,8 @@ footer {
       background-color: #555;
       color: white;
       padding: 15px;
-      text-align:center; 
+      text-align:center;
+	  margin-top: 20px;
 }
 
 /* Footer link styles. */
