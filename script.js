@@ -1,5 +1,6 @@
 // Code for random french word Generator
 // word Dict with {fr:en} words
+
 const wordDict = {
 	partie: "part",
 	histoire: "history",
@@ -105,16 +106,14 @@ const randomKey = (obj) => {
 	return keys[(keys.length * Math.random()) << 0];
 };
 
-// button object
-const randWordBtn = document.getElementById("randWordBtn");
-
-// add event listener to button with function set html elemtns for en/fr random words
-randWordBtn.addEventListener("click", (e) => {
+// generate random word
+function getRandomWord() {
 	const randFrWord = randomKey(wordDict);
 	const randEnWord = wordDict[randFrWord];
-	document.getElementById("randFrWord").innerHTML = randFrWord;
-	document.getElementById("randEnWord").innerHTML = randEnWord;
-});
+	document.getElementById("rand-fr-word").innerHTML = randFrWord;
+	document.getElementById("rand-en-word").innerHTML = randEnWord;
+}
+
 
 // Speech synthesis code
 const speak = (msg, isFrench) => {

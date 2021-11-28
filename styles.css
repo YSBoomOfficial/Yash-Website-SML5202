@@ -4,8 +4,6 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.5;
-    color: #606c71;
 }
 
 /* SET STYLES FOR BANNER */
@@ -17,12 +15,23 @@ body {
     background-image: linear-gradient(90deg, blue, rgba(125, 125, 255), white, white, white, rgba(225, 125, 125), red);
 }
 
+a {
+    color: rgb(25, 25, 50);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #334859;
+    text-decoration: underline;
+}
+
 /* Footer styles. Set black background color, white text and padding */
 footer {
     background-color: #555;
     color: white;
     padding: 15px;
     text-align: center;
+    margin-top: 20px;
 }
 
 /* Footer link styles. */
@@ -36,7 +45,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
 .site-logo {
     width: 2.5rem;
     height: 2.5rem;
@@ -44,4 +52,47 @@ footer a:hover {
     background-size: cover;
     display: block;
     border-radius: 2.5rem;
+}
+
+.rand-word-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+}
+
+.rand-word-container>div {
+    justify-content: center;
+    align-items: center;
+}
+
+#rand-word-btn {
+    background-color: rgb(225, 225, 225);
+    border: none;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+#rand-word-btn:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+#rand-word-btn:active {
+    background-color: rgb(200, 200, 200);
+}
+
+.rand-words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
 }
