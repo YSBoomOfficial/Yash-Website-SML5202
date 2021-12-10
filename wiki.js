@@ -46,5 +46,5 @@ function displayResults(results) {
 
 	console.log(results);
 }
-const form = document.querySelector(".searchForm");
-form.addEventListener("submit", handleSubmit);
+
+document.querySelector(".searchForm").addEventListener("submit", handleSubmit);
