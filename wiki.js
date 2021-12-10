@@ -29,7 +29,7 @@ function displayResults(results) {
 	const searchResults = document.querySelector(".searchResults");
 	searchResults.innerHTML = "";
 	results.forEach((result) => {
-		const url = encodeURI(`https://en.wikipedia.org/wiki/${result.title}`);
+		const url = encodeURI(`https://fr.wikipedia.org/wiki/${result.title}`);
 
 		searchResults.insertAdjacentHTML(
 			"beforeend",
