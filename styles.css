@@ -96,3 +96,9 @@ footer a:hover {
     align-items: center;
     font-family: monospace;
 }
+
+.img-cards {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
