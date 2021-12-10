@@ -107,20 +107,12 @@ const randomKey = (obj) => {
 };
 
 // generate random word
-document.getElementById("rand-word-btn").addEventListener("click", (e) => {
+function getRandomWord() {
 	const randFrWord = randomKey(wordDict);
 	const randEnWord = wordDict[randFrWord];
 	document.getElementById("rand-fr-word").innerHTML = randFrWord;
 	document.getElementById("rand-en-word").innerHTML = randEnWord;
-});
-
-// function getRandomWord() {
-// 	const randFrWord = randomKey(wordDict);
-// 	const randEnWord = wordDict[randFrWord];
-// 	document.getElementById("rand-fr-word").innerHTML = randFrWord;
-// 	document.getElementById("rand-en-word").innerHTML = randEnWord;
-// }
-
+}
 
 // Speech synthesis code
 const speak = (msg, isFrench) => {
