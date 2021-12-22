@@ -115,7 +115,7 @@ function getRandomWord() {
 }
 
 // Speech synthesis code
-const speak = (msg, isFrench) => {
+function speak(msg, isFrench) {
 	// creat SpeechSynthesisUtterance instance
 	let speech = new SpeechSynthesisUtterance();
 
