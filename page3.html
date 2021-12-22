@@ -54,14 +54,18 @@
         </div>
 
         <div class="container-fluid"><br>
-            <div class="row">
-                <div class="col-sm-1">&nbsp;</div>
+            <h4 style="text-align: center;margin-bottom: 0.5em;">You probably already know Un Deux Trois !<br>But we're
+                gonna learn about BIG numbers, and noting screams big numbers like Counting to 100</h4>
 
-                <div class="col-sm-5">
+            <p style="text-align: center;margin-bottom: 1em;"><strong><em>Hint: You can click on each cell to hear how
+                        to pronounce either the English or French number</em></strong></p>
+
+            <div class="row">
+                <!-- 1-20 -->
+                <div class="col-sm-3">
                     <table class="table">
                         <thead>
-                            <th colspan="2">Here are the numbers from 1-60.<br>NB: numbers in between 30 to 69
-                                aresimilar to number from 20-30</th>
+                            <th colspan="2">Numbers from 1-20</th>
                         </thead>
                         <tbody>
                             <tr>
@@ -152,6 +156,20 @@
                                 <td onClick="speak('20', false);">20</td>
                                 <td onClick="speak('20', true);">vingt</td>
                             </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- 30-60 -->
+                <div class="col-sm-3">
+                    <table class="table">
+                        <thead>
+                            <th colspan="2">Numbers from 20-60</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>English</th>
+                                <th>Français</th>
+                            </tr>
                             <tr>
                                 <td onClick="speak('21', false);">21</td>
                                 <td onClick="speak('21', true);">vingt et un</td>
@@ -192,7 +210,6 @@
                                 <td onClick="speak('30', false);">30</td>
                                 <td onClick="speak('30', true);">trente</td>
                             </tr>
-                            </tr>
                             <tr>
                                 <td onClick="speak('40', false);">40</td>
                                 <td onClick="speak('40', true);">quarante</td>
@@ -202,22 +219,20 @@
                                 <td onClick="speak('50', true);">cinquante</td>
                             </tr>
                             <tr>
-                            <tr>
                                 <td onClick="speak('60', false);">60</td>
                                 <td onClick="speak('60', true);">soixante</td>
                             </tr>
                         </tbody>
+                        <tfoot>
+                            <th colspan="2">Numbers in between 30 to 69 are similar to number from 20-30</th>
+                        </tfoot>
                     </table>
                 </div>
-
-                <div class="col-sm-5">
+                <!-- 70-79 -->
+                <div class="col-sm-2">
                     <table class="table">
                         <thead>
-                            <th colspan="2">numbers from 70 to 100 are a little more complicated.<br>
-                                70-79: 70 is said 60+10, 71 is said 60+11 and so on...<br>
-                                80-89: 80 is said 4x20, 81 is said 4x20+1 and so on...<br>
-                                90-99: 90 is said 4x20+10, 91 is said 4x20+10 and so on...
-                            </th>
+                            <th colspan="2">Numbers from 70 to 79</th>
                         </thead>
                         <tbody>
                             <tr>
@@ -264,6 +279,23 @@
                                 <td onClick="speak('79', false);">79</td>
                                 <td onClick="speak('79', true);">soixante-dix-neuf</td>
                             </tr>
+                        </tbody>
+                        <thead>
+                            <th colspan="2">70-79: 70 is said 60+10, 71 is said 60+11 and so on...</th>
+                        </thead>
+                    </table>
+                </div>
+                <!-- 80-89 -->
+                <div class="col-sm-2">
+                    <table class="table">
+                        <thead>
+                            <th colspan="2">Numbers from 80 to 89</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>English</th>
+                                <th>Français</th>
+                            </tr>
                             <tr>
                                 <td onClick="speak('80', false);">80</td>
                                 <td onClick="speak('80', true);">quatre-vingts</td>
@@ -275,7 +307,6 @@
                             <tr>
                                 <td onClick="speak('82', false);">82</td>
                                 <td onClick="speak('82', true);">quatre-vingt-deux</td>
-                            </tr>
                             </tr>
                             <tr>
                                 <td onClick="speak('83', false);">83</td>
@@ -304,6 +335,23 @@
                             <tr>
                                 <td onClick="speak('89', false);">89</td>
                                 <td onClick="speak('89', true);">quatre-vingt-neuf</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <th colspan="2">80-89: 80 is said 4x20, 81 is said 4x20+1 and so on...</th>
+                        </tfoot>
+                    </table>
+                </div>
+                <!-- 90-100 -->
+                <div class="col-sm-2">
+                    <table class="table">
+                        <thead>
+                            <th colspan="2">Numbers from 90 to 100</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>English</th>
+                                <th>Français</th>
                             </tr>
                             <tr>
                                 <td onClick="speak('90', false);">90</td>
@@ -336,7 +384,6 @@
                             <tr>
                                 <td onClick="speak('97', false);">97</td>
                                 <td onClick="speak('97', true);">quatre-vingt-dix-sept</td>
-                                </td>
                             </tr>
                             <tr>
                                 <td onClick="speak('98', false);">98</td>
@@ -353,11 +400,27 @@
                                 <td onClick="speak('100', true);">cent</td>
                             </tr>
                         </tbody>
+                        <tfoot>
+                            <th colspan="2">90-99: 90 is said 4x20+10, 91 is said 4x20+10 and so on...</th>
+                        </tfoot>
                     </table>
                 </div>
-
-                <div class="col-sm-1">&nbsp;</div>
             </div>
+
+            <h4 style="text-align: center;margin-bottom: 1em;margin-top: 1em;">Now that you know some Numbers, let's do
+                so small drag and drop exercise.</h4>
+
+            <div style="text-align: center;">
+                <iframe src="https://h5p.org/h5p/embed/1237130" width="95%" height="650"
+                    allowfullscreen="allowfullscreen"
+                    allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
+                    title="French Numbers Drag and Drop"></iframe>
+                <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+            </div>
+
+            <h6 style="text-align: center; margin-bottom: 0.5em;">Now that you're familiar with some greetings and
+                numbers, it's time to move on to <a class="bottom-link" href="page4.html">Grammar</a></h6>
+
         </div>
 
         <footer>
