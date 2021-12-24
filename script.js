@@ -120,7 +120,7 @@ function speak(msg, isFrench) {
 	let speech = new SpeechSynthesisUtterance();
 
 	// ternary operator for changing speech language
-	speech.lang = isFrench ? "fr" : "en-US";
+	speech.lang = isFrench ? "fr" : "en";
 
 	speech.text = msg;
 	speech.volume = 1;
